@@ -1,0 +1,1 @@
+﻿the LoginStatus control doesn't return to the Login page when it logs out a user

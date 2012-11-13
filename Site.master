@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>SellStation | Get it all whenever you need to</title>
+<link rel="stylesheet" type="text/css" href="Styles/style.css" />
+<!--<[if IE 6]>
+<link rel="stylesheet" type="text/css" href="iecss.css" />
+<![endif]>-->
+<script type="text/javascript" src="Scripts/boxOver.js"></script>
+<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="main_container">
+	<div class="top_bar">
+    	<div class="top_search">
+        	<div class="search_text"><a href="#">Advanced Search</a></div>
+            <input type="text" class="search_input" name="search" />
+            <input type="image" src="images/search.gif" class="search_bt"/>
+        </div>
+        
+        <div class="languages">
+        <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Login" LogoutText="Log Out" style="float:right"  LogoutPageUrl="~/Login.aspx" />
+                   <asp:LoginName ID="LoginName1" runat="server"  style="float:right;margin-left:10px;margin-right:10px;font-family:Pericles" />
+            <!--<a href="#" class="lang"><div class="lang_text">Login</div><img src="images/login.gif" alt="" title="" border="0" /></a>   -->    
+        </div>
+    
+    </div>
+	<div id="header">
+        
+        <div id="logo">
+            <a href="Default.aspx"><img src="Images/logo.png" alt="" title="" border="0" width="268" height="35" /></a>
+	    </div>
+        
+        <div class="oferte_content">
+        	<div class="top_divider"><img src="images/header_divider.png" alt="" title="" width="1" height="164" /></div>
+        	<div class="oferta">
+            
+           		<div class="oferta_content">
+                	<img src="Images/laptop.png" width="94" height="92" border="0" class="oferta_img" />
+                	
+                    <div class="oferta_details">
+                            <div class="oferta_title">Samsung GX 2004 LM</div>
+                            <div class="oferta_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            </div>
+                            <a href="Details.aspx" class="details">details</a>
+                    </div>
+                </div>
+                <div class="oferta_pagination">
+                
+                     <span class="current">1</span>
+                     <a href="#?page=2">2</a>
+                     <a href="#?page=3">3</a>
+                     <a href="#?page=3">4</a>
+                     <a href="#?page=3">5</a>  
+                             
+                </div>        
+
+            </div>
+            <div class="top_divider"><img src="images/header_divider.png" alt="" title="" width="1" height="164" /></div>
+        	
+        </div> <!-- end of oferte_content-->
+        
+
+    </div>
+    
+   <div id="main_content"> 
+   
+            <div id="menu_tab">
+            <div class="left_menu_corner"></div>
+                    <ul class="menu">
+                         <li><a href="Default.aspx" class="nav1">  Home </a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav2">Products</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav3">Specials</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav4">My account</a></li>
+                         <li class="divider"></li>
+                         <li><a href="Register.aspx" class="nav4">Sign Up</a></li>
+                         <li class="divider"></li>                         
+                         <li><a href="#" class="nav5">Shipping </a></li>
+                         <li class="divider"></li>
+                         <li><a href="Contact.aspx" class="nav6">Contact Us</a></li>
+                         <li class="divider"></li>
+                         <li class="currencies">Currencies
+                         <select>
+                         <option>US Dollar</option>
+                         <option>Euro</option>
+                         </select>
+                         </li>
+                    </ul>
+
+             <div class="right_menu_corner"></div>
+            </div><!-- end of menu tab -->
+            
+    <div class="crumb_navigation">
+    Navigation: <span class="current">Home</span>
+    
+    </div>        
+    
+    
+   <div class="left_content">
+    <div class="title_box">Categories</div>
+    
+        <ul class="left_menu">
+        <li class="odd"><a href="services.html">Processors</a></li>
+        <li class="even"><a href="services.html">Motherboards</a></li>
+         <li class="odd"><a href="services.html">Desktops</a></li>
+        <li class="even"><a href="services.html">Laptops & Notebooks</a></li>
+         <li class="odd"><a href="services.html">Processors</a></li>
+         <li class="even"><a href="services.html">Motherboards</a></li>
+        <li class="odd"><a href="services.html">Processors</a></li>
+        <li class="even"><a href="services.html">Motherboards</a></li>
+         <li class="odd"><a href="services.html">Desktops</a></li>
+        <li class="even"><a href="services.html">Laptops & Notebooks</a></li>
+         <li class="odd"><a href="services.html">Processors</a></li>
+         <li class="even"><a href="services.html">Motherboards</a></li>
+        </ul> 
+        
+        
+     <div class="title_box">Special Products</div>  
+     <div class="border_box">
+         <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+         <div class="product_img"><a href="details.html"><img src="images/laptop.png" alt="" title="" border="0" /></a></div>
+         <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+     </div>  
+     
+     
+     <div class="title_box">Newsletter</div>  
+     <div class="border_box">
+		<input type="text" name="newsletter" class="newsletter_input" value="your email"/>
+        <a href="#" class="join">join</a>
+     </div>  
+     
+     <div class="banner_adds">
+     
+     <a href="#"><img src="images/bann2.jpg" alt="" title="" border="0" /></a>
+     </div>    
+        
+    
+   </div><!-- end of left content -->
+   
+   
+
+   <!--here's where there'll be dynamic content that'll change page by page -->
+   <asp:ContentPlaceHolder ID="centerContent" runat="server">
+   
+   </asp:ContentPlaceHolder>
+   
+   <div class="right_content">
+   		<div class="shopping_cart">
+        	<div class="cart_title">Shopping cart</div>
+            
+            <div class="cart_details">
+            3 items <br />
+            <span class="border_cart"></span>
+            Total: <span class="price">350$</span>
+            </div>
+            
+            <div class="cart_icon"><a href="#" title="header=[Checkout] body=[&nbsp;] fade=[on]"><img src="images/shoppingcart.png" alt="" title="" width="48" height="48" border="0" /></a></div>
+        
+        </div>
+   
+   
+     <div class="title_box">What’s new</div>  
+     <div class="border_box">
+         <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+         <div class="product_img"><a href="details.html"><img src="images/p2.gif" alt="" title="" border="0" /></a></div>
+         <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+     </div>  
+     
+     
+     
+    <div class="title_box">Stores on SellStation</div>
+    
+        <ul class="left_menu">
+        <li class="odd"><a href="services.html">Shoprite</a></li>
+        <li class="even"><a href="services.html">The palms</a></li>
+         <li class="odd"><a href="services.html">SLOT</a></li>
+        <li class="even"><a href="services.html">Forks and Fingers</a></li>
+         <li class="odd"><a href="services.html">Back to School</a></li>
+         <li class="even"><a href="services.html">Carnoby Computers</a></li>
+        </ul>      
+     
+     <div class="banner_adds">
+     
+     <a href="#"><img src="images/bann1.jpg" alt="" title="" border="0" /></a>
+     </div>        
+     
+   </div><!-- end of right content -->   
+   
+            
+   </div><!-- end of main content -->
+   
+   
+   
+   <div class="footer">
+   
+
+        <div class="left_footer">
+        <img src="images/footer_logo.png" alt="" title="" width="170" height="49"/>
+        </div>
+        
+        <div class="center_footer">
+       SellStation. All Rights Reserved &copy; 2012<br />
+        <img src="images/payment.gif" alt="" title="" />
+        </div>
+        
+        <div class="right_footer">
+        <a href="Default.aspx">home</a>
+        <a href="Details.aspx">about</a>
+        <a href="Details.aspx">sitemap</a>
+        <a href="Details.aspx">rss</a>
+        <a href="Contact.aspx">contact us</a>
+        </div>   
+   
+   </div>                 
+
+
+</div>
+<!-- end of main_container -->
+</form>
+</body>
+</html>
