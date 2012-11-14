@@ -33,9 +33,9 @@
     </script>
 
 
-<div class="center_content">
+<div class="center_content" id="content" runat="server">
    	
-   <div class="center_title_bar">Latest Products</div>
+   <div class="center_title_bar" id="latest" runat="server">Latest Products</div>
     
     	<div class="prod_box">
         	<div class="top_prod_box"></div>
