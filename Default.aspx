@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-
+<%@ Register TagPrefix="ss" tagname="Product" Src="~\Controls\productControl.ascx" %>
 
 <%-- Add content controls here --%>
 <asp:Content ContentPlaceHolderID="centerContent" runat="server">
@@ -37,22 +37,10 @@
    	
    <div class="center_title_bar" id="latest" runat="server">Latest Products</div>
     
-    	<div class="prod_box">
-        	<div class="top_prod_box"></div>
-            <div class="center_prod_box">            
-                 <div class="product_title"><a href="Details.aspx">Motorola 156 MX-VL</a></div>
-                 <div class="product_img"><a href="Details.aspx"><img src="images/laptop.gif" alt="" title="" border="0" /></a></div>
-                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
-            </div>
-            <div class="bottom_prod_box"></div>             
-            <div class="prod_details_tab">
-            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
-            <a href="Details.aspx" class="prod_details">details</a>            
-            </div>                     
-        </div>
+    <div id="products" runat="server">
     
-    
- 
+    </div>
+ <!--<ss:Product ID="product" runat="server"/>
      	<div class="prod_box">
         	<div class="top_prod_box"></div>
             <div class="center_prod_box">            
@@ -122,7 +110,7 @@
             <a href="Details.aspx" class="prod_details">details</a>            
             </div>                     
         </div> 
- 
+ -->
  
  <div class="center_title_bar">Recommended Products</div>
  
