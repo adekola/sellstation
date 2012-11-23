@@ -1,8 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Details.aspx.cs" Inherits="Details" %>
+<%@ Register TagPrefix="ss" tagname="Product" Src="~\Controls\productsDetailsControl.ascx" %>
 
 <%-- Add content controls here --%>
 <asp:Content ContentPlaceHolderID="centerContent" runat="server">
 <div class="center_content">
+<div id="prodDetails" runat="server">
+
+</div>
+<!--
  	<div class="center_title_bar">Motorola 156 MX-VL</div>
     
     	<div class="prod_box_big">
@@ -36,6 +41,8 @@
             </div>
             <div class="bottom_prod_box_big"></div>                                
         </div>
+
+        -->
  <div class="center_title_bar">Similar products</div>
  
  
@@ -88,6 +95,8 @@
             <a href="details.html" class="prod_details">details</a>            
             </div>                     
         </div> 
-   </div><!-- end of center content -->
+   </div>
+   -->
+   <!-- end of center content -->
    	</div>
 </asp:Content>

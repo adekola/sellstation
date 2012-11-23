@@ -33,6 +33,7 @@ public partial class _Default : System.Web.UI.Page
             foreach (var item in itemsOnSale)
             {
                 Controls_productControl p = (Controls_productControl)Page.LoadControl("Controls/productControl.ascx");
+                p.DetailsLink = "~/Details.aspx?pid="+ item.Id; //append teh id of the product it get its details
                 p.ID = (pCount++).ToString();
                 p.Name = item.Name;
                 p.Price = item.Price;

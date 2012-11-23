@@ -441,7 +441,7 @@ float:left;
 padding:6px 0 0 6px;
 }
 a.prod_details{
-width:25px;
+width:173px;
 display:block;
 float:left;
 background:url(../Images/square-blue-add.gif) no-repeat left;
@@ -507,6 +507,7 @@ text-decoration:line-through;
 }
 span.price{
 color:#ea2222;
+
 }
 a.addtocart{
 width:76px;
@@ -533,6 +534,7 @@ color:#1c4a52;
 }
 span.blue{
 color:#5F9FAB;
+padding-left:20px;
 }
 /*---------------contact_form------------------*/
 .contact_form{
