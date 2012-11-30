@@ -659,6 +659,13 @@ input.textEntry
     border: 1px solid #ccc;
 }
 
+
+input.qtyEntry 
+{
+    width: 32px;
+    border: 1px solid #ccc;
+}
+
 input.passwordEntry 
 {
     width: 320px;
