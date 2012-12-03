@@ -1,7 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-<%@ Register TagPrefix="ss" tagname="Product" Src="~\Controls\productControl.ascx" %>
-
+<%@ Register TagPrefix="ss" tagname="Product" Src="~/Controls/productControl.ascx" %>
+<%@ Register TagPrefix="sc" TagName="Categories" Src="~/Controls/categoriesControl.ascx"  %>
 <%-- Add content controls here --%>
+
+<asp:Content ContentPlaceHolderID="categ" runat="server">
+
+<sc:Categories ID="categs" runat="server" />
+
+</asp:Content>
 <asp:Content ContentPlaceHolderID="centerContent" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {

@@ -1,4 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register TagPrefix="sc" TagName="Categories" Src="~/Controls/categoriesControl.ascx"  %>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
@@ -106,7 +108,10 @@
    <div class="left_content">
     <div class="title_box">Categories</div>
     
-        <ul class="left_menu">
+    <asp:ContentPlaceHolder ID="categ" runat="server"> 
+    <!--- categ goes here -->
+    </asp:ContentPlaceHolder>
+    <!--    <ul class="left_menu">
         <li class="odd"><a href="services.html">Processors</a></li>
         <li class="even"><a href="services.html">Motherboards</a></li>
          <li class="odd"><a href="services.html">Desktops</a></li>
@@ -121,6 +126,7 @@
          <li class="even"><a href="services.html">Motherboards</a></li>
         </ul> 
         
+        -->
         
      <div class="title_box">Special Products</div>  
      <div class="border_box">
